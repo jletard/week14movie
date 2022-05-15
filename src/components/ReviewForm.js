@@ -12,8 +12,6 @@ export default class ReviewForm extends Component {
     addReview(event) {
         console.log('pressed')
         event.preventDefault();
-        let title = document.getElementById('reviewTitle').value;
-        console.log(title);
         let newReview = {
             reviewTitle: document.getElementById('reviewTitle').value,
             reviewer: document.getElementById('reviewerName').value,
